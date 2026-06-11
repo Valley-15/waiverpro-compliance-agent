@@ -1,0 +1,11 @@
+playwright
+pymupdf
+google-generativeai
+chromadb
+fastapi
+uvicorn
+python-dotenv
+pydantic
+beautifulsoup4
+lxml
+pandas

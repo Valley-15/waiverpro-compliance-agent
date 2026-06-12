@@ -1,0 +1,271 @@
+{
+  "page_url": "/dashboard/contact",
+  "screenshot_path": "data/screenshots/contact.png",
+  "headings": [
+    "Contact",
+    "Send us a message",
+    "Contact Information",
+    "Quick Response"
+  ],
+  "sections": [
+    "Send us a message",
+    "Contact Information",
+    "Quick Response"
+  ],
+  "buttons": [
+    {
+      "text": "+ New Application",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Take a Tour",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "12",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "AD",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Send Message",
+      "aria_label": null,
+      "title": null
+    }
+  ],
+  "links": [
+    {
+      "text": "My Applications",
+      "href": "/dashboard/my-applications"
+    },
+    {
+      "text": "Facilities",
+      "href": "/dashboard/facilities"
+    },
+    {
+      "text": "Action Items",
+      "href": "/dashboard/action-items"
+    },
+    {
+      "text": "User Management",
+      "href": "/dashboard/user-management"
+    },
+    {
+      "text": "Announcements",
+      "href": "/dashboard/announcements"
+    },
+    {
+      "text": "Settings",
+      "href": "/dashboard/settings"
+    },
+    {
+      "text": "FAQs",
+      "href": "/dashboard/faqs"
+    },
+    {
+      "text": "Tickets",
+      "href": "/dashboard/tickets"
+    },
+    {
+      "text": "Contact",
+      "href": "/dashboard/contact"
+    }
+  ],
+  "table_links": [],
+  "inputs": [
+    {
+      "type": null,
+      "name": null,
+      "placeholder": "Your name",
+      "aria_label": null,
+      "value": ""
+    },
+    {
+      "type": "email",
+      "name": null,
+      "placeholder": "your@email.com",
+      "aria_label": null,
+      "value": ""
+    },
+    {
+      "type": null,
+      "name": null,
+      "placeholder": "How can we help?",
+      "aria_label": null,
+      "value": ""
+    }
+  ],
+  "selects": [],
+  "textareas": [
+    {
+      "name": null,
+      "placeholder": "Tell us more about your inquiry..."
+    }
+  ],
+  "tables": [],
+  "pagination": [],
+  "expandable_content_detected": true,
+  "expanded_content": [
+    "New Waiver Application\n\nComplete the form to submit your waiver request\n\nWaiver Type\nSelect Location\nFill Application\nSelect Waiver Type\n\nChoose the type of waiver request that best matches your needs\n\nPatient Needs Waiver (PNW) Request\n\nApply when the facility is seeking a waiver of the 2.4 CNA requirement to meet individual patient needs but will provide a minimum of 3.5 direct care service hours. Facilities may only submit one Patient Needs Waiver and/or one Workforce Shortage Waiver application in the same year. If submitting both, only one may be approved.\n\nProgram Flexibility (PF) Request\n\nApply when the facility is seeking program flexibility to regulations. The request must include justification for the program flexibility, adequate description of the alternative concept, and documentation supporting that patient care will not be compromised. The facility may request program flexibility that is intended to be emergency or routine. An approved program flexibility request is for a limited term with a start and an end date. Facilities may submit more than one application as needed.\n\nWorkforce Shortage Waiver (WSW) Request\n\nExpired\n\nApply when the facility is seeking a waiver of the 3.5 direct care service hours requirement and/or the 2.4 CNA hours requirement due to a workforce shortage of available and appropriate health care professionals and direct care givers. Facilities may only submit one Patient Needs Waiver and/or one Workforce Shortage Waiver application in the same year. If submitting both, only one may be approved.\n\nThis waiver is no longer available\n\nThis waiver was available from Dec 29, 2025 to Apr 30, 2026\n\nNext\nClose"
+  ],
+  "components": [
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "+ New Application",
+      "retrieved_at": "2026-06-12T12:11:28.649Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Take a Tour",
+      "retrieved_at": "2026-06-12T12:11:28.657Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "12",
+      "retrieved_at": "2026-06-12T12:11:28.665Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "AD",
+      "retrieved_at": "2026-06-12T12:11:28.673Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Send Message",
+      "retrieved_at": "2026-06-12T12:11:28.681Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Waiver Type",
+      "retrieved_at": "2026-06-12T12:11:28.691Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Select Location",
+      "retrieved_at": "2026-06-12T12:11:28.699Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Fill Application",
+      "retrieved_at": "2026-06-12T12:11:28.708Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:28.716Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:28.724Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:28.732Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Next",
+      "retrieved_at": "2026-06-12T12:11:28.740Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Close",
+      "retrieved_at": "2026-06-12T12:11:28.749Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "My Applications",
+      "retrieved_at": "2026-06-12T12:11:28.760Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Facilities",
+      "retrieved_at": "2026-06-12T12:11:28.769Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Action Items",
+      "retrieved_at": "2026-06-12T12:11:28.778Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "User Management",
+      "retrieved_at": "2026-06-12T12:11:28.787Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Announcements",
+      "retrieved_at": "2026-06-12T12:11:28.802Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Settings",
+      "retrieved_at": "2026-06-12T12:11:28.825Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "FAQs",
+      "retrieved_at": "2026-06-12T12:11:28.845Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Tickets",
+      "retrieved_at": "2026-06-12T12:11:28.866Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Contact",
+      "retrieved_at": "2026-06-12T12:11:28.883Z"
+    },
+    {
+      "component_type": "input",
+      "component_selector": "input",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:28.905Z"
+    },
+    {
+      "component_type": "input",
+      "component_selector": "input",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:28.918Z"
+    },
+    {
+      "component_type": "input",
+      "component_selector": "input",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:28.932Z"
+    }
+  ],
+  "accessibility_tree": null,
+  "page_text": "WaiverPro\nHealthcare Waiver Management\n+ New Application\nMy Applications\nFacilities\nAction Items\nUser Management\nAnnouncements\nSettings\nSupport\nFAQs\nTickets\nContact\nTake a Tour\nContact\n\nGet in touch with our support team\n\n12\nAD\nSend us a message\nName\nEmail\nSubject\nMessage\nSend Message\nContact Information\nEmail\nsupport@waiverpro.com\nPhone\n+1 (555) 123-4567\nAddress\n123 Healthcare Plaza\nSuite 400\nNew York, NY 10001\nBusiness Hours\nMonday - Friday: 9:00 AM - 6:00 PM EST\nSaturday - Sunday: Closed\nQuick Response\n\nWe typically respond to all inquiries within 24 hours during business days. For urgent matters, please call our support line."
+}

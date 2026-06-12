@@ -1,0 +1,543 @@
+{
+  "page_url": "/dashboard/my-applications",
+  "screenshot_path": "data/screenshots/my-applications.png",
+  "headings": [
+    "My Applications",
+    "Applications by Type",
+    "Applications Overview"
+  ],
+  "sections": [
+    "Applications by Type",
+    "Applications Overview"
+  ],
+  "buttons": [
+    {
+      "text": "+ New Application",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Take a Tour",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "12",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "AD",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "All447",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Patient Needs Waiver (PNW) Request324",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Program Flexibility (PF) Request108",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Workforce Shortage Waiver (WSW) Request15",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "All Applications\n447",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Draft 160",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Submitted 269",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Reopen 0",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "In Review 4",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Rejected 0",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Approved 6",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Evaluator Review 1",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Manager Review 7",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Revoked 0",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Expired 0",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "10",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": null
+    }
+  ],
+  "links": [
+    {
+      "text": "My Applications",
+      "href": "/dashboard/my-applications"
+    },
+    {
+      "text": "Facilities",
+      "href": "/dashboard/facilities"
+    },
+    {
+      "text": "Action Items",
+      "href": "/dashboard/action-items"
+    },
+    {
+      "text": "User Management",
+      "href": "/dashboard/user-management"
+    },
+    {
+      "text": "Announcements",
+      "href": "/dashboard/announcements"
+    },
+    {
+      "text": "Settings",
+      "href": "/dashboard/settings"
+    },
+    {
+      "text": "FAQs",
+      "href": "/dashboard/faqs"
+    },
+    {
+      "text": "Tickets",
+      "href": "/dashboard/tickets"
+    },
+    {
+      "text": "Contact",
+      "href": "/dashboard/contact"
+    }
+  ],
+  "table_links": [],
+  "inputs": [
+    {
+      "type": null,
+      "name": null,
+      "placeholder": "Search",
+      "aria_label": null,
+      "value": ""
+    }
+  ],
+  "selects": [],
+  "textareas": [],
+  "tables": [
+    {
+      "headers": [
+        "Waiver ID",
+        "Name",
+        "Facility",
+        "Type",
+        "Status",
+        "Created on"
+      ],
+      "rows": [
+        [
+          "PNW-01328-J7J1W2",
+          "39TH AVENUE CLINICS (MAIN CLINIC) - Patient Needs Waiver",
+          "39TH AVENUE CLINICS (MAIN CLINIC)",
+          "Patient Needs Waiver (PNW) Request",
+          "Draft",
+          "Jun 12, 2026"
+        ],
+        [
+          "PNW-01327-J4Z4X7",
+          "39TH AVENUE CLINICS (MAIN CLINIC) - Patient Needs Waiver",
+          "39TH AVENUE CLINICS (MAIN CLINIC)",
+          "Patient Needs Waiver (PNW) Request",
+          "Draft",
+          "Jun 12, 2026"
+        ],
+        [
+          "PNW-01326-L9P2Z7",
+          "39TH AVENUE CLINICS (MAIN CLINIC) - Patient Needs Waiver",
+          "39TH AVENUE CLINICS (MAIN CLINIC)",
+          "Patient Needs Waiver (PNW) Request",
+          "Draft",
+          "Jun 12, 2026"
+        ],
+        [
+          "PNW-01325-R8G4W4",
+          "39TH AVENUE CLINICS (MAIN CLINIC) - Patient Needs Waiver",
+          "39TH AVENUE CLINICS (MAIN CLINIC)",
+          "Patient Needs Waiver (PNW) Request",
+          "Draft",
+          "Jun 12, 2026"
+        ],
+        [
+          "PNW-01324-L3Z9L3",
+          "39TH AVENUE CLINICS (MAIN CLINIC) - Patient Needs Waiver",
+          "39TH AVENUE CLINICS (MAIN CLINIC)",
+          "Patient Needs Waiver (PNW) Request",
+          "Draft",
+          "Jun 12, 2026"
+        ],
+        [
+          "PNW-01323-H1V4S4",
+          "39TH AVENUE CLINICS (MAIN CLINIC) - Patient Needs Waiver",
+          "39TH AVENUE CLINICS (MAIN CLINIC)",
+          "Patient Needs Waiver (PNW) Request",
+          "Draft",
+          "Jun 12, 2026"
+        ],
+        [
+          "PNW-01322-Z2Z2B5",
+          "39TH AVENUE CLINICS (MAIN CLINIC) - Patient Needs Waiver",
+          "39TH AVENUE CLINICS (MAIN CLINIC)",
+          "Patient Needs Waiver (PNW) Request",
+          "Draft",
+          "Jun 12, 2026"
+        ],
+        [
+          "PNW-01321-C7L5B8",
+          "39TH AVENUE CLINICS (MAIN CLINIC) - Patient Needs Waiver",
+          "39TH AVENUE CLINICS (MAIN CLINIC)",
+          "Patient Needs Waiver (PNW) Request",
+          "Draft",
+          "Jun 12, 2026"
+        ],
+        [
+          "PNW-01320-Y9C9N3",
+          "39TH AVENUE CLINICS (MAIN CLINIC) - Patient Needs Waiver",
+          "39TH AVENUE CLINICS (MAIN CLINIC)",
+          "Patient Needs Waiver (PNW) Request",
+          "Submitted",
+          "Jun 12, 2026"
+        ],
+        [
+          "PNW-01319-F2M6H3",
+          "39TH AVENUE CLINICS (MAIN CLINIC) - Patient Needs Waiver",
+          "39TH AVENUE CLINICS (MAIN CLINIC)",
+          "Patient Needs Waiver (PNW) Request",
+          "Draft",
+          "Jun 12, 2026"
+        ]
+      ]
+    }
+  ],
+  "pagination": [
+    "Rows per page",
+    "Page "
+  ],
+  "expandable_content_detected": true,
+  "expanded_content": [
+    "New Waiver Application\n\nComplete the form to submit your waiver request\n\nWaiver Type\nSelect Location\nFill Application\nSelect Waiver Type\n\nChoose the type of waiver request that best matches your needs\n\nPatient Needs Waiver (PNW) Request\n\nApply when the facility is seeking a waiver of the 2.4 CNA requirement to meet individual patient needs but will provide a minimum of 3.5 direct care service hours. Facilities may only submit one Patient Needs Waiver and/or one Workforce Shortage Waiver application in the same year. If submitting both, only one may be approved.\n\nProgram Flexibility (PF) Request\n\nApply when the facility is seeking program flexibility to regulations. The request must include justification for the program flexibility, adequate description of the alternative concept, and documentation supporting that patient care will not be compromised. The facility may request program flexibility that is intended to be emergency or routine. An approved program flexibility request is for a limited term with a start and an end date. Facilities may submit more than one application as needed.\n\nWorkforce Shortage Waiver (WSW) Request\n\nExpired\n\nApply when the facility is seeking a waiver of the 3.5 direct care service hours requirement and/or the 2.4 CNA hours requirement due to a workforce shortage of available and appropriate health care professionals and direct care givers. Facilities may only submit one Patient Needs Waiver and/or one Workforce Shortage Waiver application in the same year. If submitting both, only one may be approved.\n\nThis waiver is no longer available\n\nThis waiver was available from Dec 29, 2025 to Apr 30, 2026\n\nNext\nClose"
+  ],
+  "components": [
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "+ New Application",
+      "retrieved_at": "2026-06-12T12:10:38.795Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Take a Tour",
+      "retrieved_at": "2026-06-12T12:10:38.815Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "12",
+      "retrieved_at": "2026-06-12T12:10:38.824Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "AD",
+      "retrieved_at": "2026-06-12T12:10:38.834Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "All447",
+      "retrieved_at": "2026-06-12T12:10:38.844Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Patient Needs Waiver (PNW) Request324",
+      "retrieved_at": "2026-06-12T12:10:38.852Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Program Flexibility (PF) Request108",
+      "retrieved_at": "2026-06-12T12:10:38.860Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Workforce Shortage Waiver (WSW) Request15",
+      "retrieved_at": "2026-06-12T12:10:38.869Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "All Applications\n447",
+      "retrieved_at": "2026-06-12T12:10:38.878Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Draft 160",
+      "retrieved_at": "2026-06-12T12:10:38.888Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Submitted 269",
+      "retrieved_at": "2026-06-12T12:10:38.897Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Reopen 0",
+      "retrieved_at": "2026-06-12T12:10:38.907Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "In Review 4",
+      "retrieved_at": "2026-06-12T12:10:38.917Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Rejected 0",
+      "retrieved_at": "2026-06-12T12:10:38.928Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Approved 6",
+      "retrieved_at": "2026-06-12T12:10:38.938Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Evaluator Review 1",
+      "retrieved_at": "2026-06-12T12:10:38.950Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Manager Review 7",
+      "retrieved_at": "2026-06-12T12:10:38.964Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Revoked 0",
+      "retrieved_at": "2026-06-12T12:10:38.983Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Expired 0",
+      "retrieved_at": "2026-06-12T12:10:39.000Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "10",
+      "retrieved_at": "2026-06-12T12:10:39.013Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:10:39.030Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:10:39.045Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:10:39.064Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:10:39.084Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Waiver Type",
+      "retrieved_at": "2026-06-12T12:10:39.096Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Select Location",
+      "retrieved_at": "2026-06-12T12:10:39.111Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Fill Application",
+      "retrieved_at": "2026-06-12T12:10:39.126Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:10:39.139Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:10:39.150Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:10:39.165Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Next",
+      "retrieved_at": "2026-06-12T12:10:39.179Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Close",
+      "retrieved_at": "2026-06-12T12:10:39.195Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "My Applications",
+      "retrieved_at": "2026-06-12T12:10:39.215Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Facilities",
+      "retrieved_at": "2026-06-12T12:10:39.229Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Action Items",
+      "retrieved_at": "2026-06-12T12:10:39.239Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "User Management",
+      "retrieved_at": "2026-06-12T12:10:39.249Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Announcements",
+      "retrieved_at": "2026-06-12T12:10:39.264Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Settings",
+      "retrieved_at": "2026-06-12T12:10:39.272Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "FAQs",
+      "retrieved_at": "2026-06-12T12:10:39.280Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Tickets",
+      "retrieved_at": "2026-06-12T12:10:39.289Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Contact",
+      "retrieved_at": "2026-06-12T12:10:39.298Z"
+    },
+    {
+      "component_type": "input",
+      "component_selector": "input",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:10:39.311Z"
+    }
+  ],
+  "accessibility_tree": null,
+  "page_text": "WaiverPro\nHealthcare Waiver Management\n+ New Application\nMy Applications\nFacilities\nAction Items\nUser Management\nAnnouncements\nSettings\nSupport\nFAQs\nTickets\nContact\nTake a Tour\nMy Applications\n12\nAD\nAll447\nPatient Needs Waiver (PNW) Request324\nProgram Flexibility (PF) Request108\nWorkforce Shortage Waiver (WSW) Request15\nAll Applications\n447\nDraft 160\nSubmitted 269\nReopen 0\nIn Review 4\nRejected 0\nApproved 6\nEvaluator Review 1\nManager Review 7\nRevoked 0\nExpired 0\nWaiver ID\tName\tFacility\tType\tStatus\tCreated on\nPNW-01328-J7J1W2\t\n39TH AVENUE CLINICS (MAIN CLINIC) - Patient Needs Waiver\n\t39TH AVENUE CLINICS (MAIN CLINIC)\tPatient Needs Waiver (PNW) Request\t\nDraft\n\tJun 12, 2026\nPNW-01327-J4Z4X7\t\n39TH AVENUE CLINICS (MAIN CLINIC) - Patient Needs Waiver\n\t39TH AVENUE CLINICS (MAIN CLINIC)\tPatient Needs Waiver (PNW) Request\t\nDraft\n\tJun 12, 2026\nPNW-01326-L9P2Z7\t\n39TH AVENUE CLINICS (MAIN CLINIC) - Patient Needs Waiver\n\t39TH AVENUE CLINICS (MAIN CLINIC)\tPatient Needs Waiver (PNW) Request\t\nDraft\n\tJun 12, 2026\nPNW-01325-R8G4W4\t\n39TH AVENUE CLINICS (MAIN CLINIC) - Patient Needs Waiver\n\t39TH AVENUE CLINICS (MAIN CLINIC)\tPatient Needs Waiver (PNW) Request\t\nDraft\n\tJun 12, 2026\nPNW-01324-L3Z9L3\t\n39TH AVENUE CLINICS (MAIN CLINIC) - Patient Needs Waiver\n\t39TH AVENUE CLINICS (MAIN CLINIC)\tPatient Needs Waiver (PNW) Request\t\nDraft\n\tJun 12, 2026\nPNW-01323-H1V4S4\t\n39TH AVENUE CLINICS (MAIN CLINIC) - Patient Needs Waiver\n\t39TH AVENUE CLINICS (MAIN CLINIC)\tPatient Needs Waiver (PNW) Request\t\nDraft\n\tJun 12, 2026\nPNW-01322-Z2Z2B5\t\n39TH AVENUE CLINICS (MAIN CLINIC) - Patient Needs Waiver\n\t39TH AVENUE CLINICS (MAIN CLINIC)\tPatient Needs Waiver (PNW) Request\t\nDraft\n\tJun 12, 2026\nPNW-01321-C7L5B8\t\n39TH AVENUE CLINICS (MAIN CLINIC) - Patient Needs Waiver\n\t39TH AVENUE CLINICS (MAIN CLINIC)\tPatient Needs Waiver (PNW) Request\t\nDraft\n\tJun 12, 2026\nPNW-01320-Y9C9N3\t\n39TH AVENUE CLINICS (MAIN CLINIC) - Patient Needs Waiver\n\t39TH AVENUE CLINICS (MAIN CLINIC)\tPatient Needs Waiver (PNW) Request\t\nSubmitted\n\tJun 12, 2026\nPNW-01319-F2M6H3\t\n39TH AVENUE CLINICS (MAIN CLINIC) - Patient Needs Waiver\n\t39TH AVENUE CLINICS (MAIN CLINIC)\tPatient Needs Waiver (PNW) Request\t\nDraft\n\tJun 12, 2026\nRows per page\n10\nPage 1 of 45\nApplications by Type\nPNW\nPF\nWSW\n447\nTotal\nApplications Overview\nApproved\nDraft\nEvaluator Review\nIn Review\nManager Review\nSubmitted\n447\nTotal"
+}

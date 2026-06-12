@@ -1,0 +1,101 @@
+[
+  {
+    "page_file": "action-items.json",
+    "page_url": "/dashboard/action-items",
+    "guideline_reference": "Action Items",
+    "guideline_excerpt": "S E C T I O N  8\nAction Items\nURL  /dashboard/action-items\nThe Action Items page collects pending items that require your attention.\nFigure 8.1 \u2014 The Action Items page, with the items table and the status summary chart.\nItems are listed with the columns ID, Name, Status, Priority, and Due Date. Each Name links\nto the relevant record so you can act on it. You can filter the list by Status and Priority using the\ncontrols at the top right.\nStatus values include Done and In Process.\nPriority values ",
+    "compliant": true,
+    "discrepancy_flag": false,
+    "discrepancy_reason": "The UI displays the Action Items page at the specified URL, with a table showing ID, Name, Status, Priority, and Due Date columns. There are filter controls for Status and Priority. The Status and Priority values align with the guideline. While an explicit doughnut chart is not shown, a summary of total action items broken down by priority is presented with 'High', 'Low', and 'Medium' counts, which is equivalent to a summary doughnut chart. The '12 Total' next to the priority breakdown reflects the outstanding count, matching the concept of a notification badge even if it's not explicitly called a badge within the extracted UI data description.",
+    "screenshot_path": "data/screenshots/action-items.png",
+    "retrieved_at": "2026-06-12T12:11:43.426272"
+  },
+  {
+    "page_file": "announcements.json",
+    "page_url": "/dashboard/announcements",
+    "guideline_reference": "Announcements",
+    "guideline_excerpt": "S E C T I O N  1 0\nAnnouncements\nURL  /dashboard/announcements\nThe Announcements page keeps you informed: \u201cStay up to date with important system and\nprogram updates.\u201d\nFigure 10.1 \u2014 The Announcements page.\nEach announcement shows its title, a status badge \u2014 Active, Upcoming, or Expired \u2014 an\noptional priority badge (High, Medium, or Low), and its date. Click an announcement to expand\nand read its full detail. A search box helps you find a specific announcement.\n\n\n===== PAGE 19 =====\n\n",
+    "compliant": true,
+    "discrepancy_flag": false,
+    "discrepancy_reason": "The page URL is /dashboard/announcements. The text 'Stay up to date with important system and program updates.' is present. Each announcement clearly shows a title, status badge (Expired), optional priority badge (Medium, Low, High), and a date. A search box is present via an input with a 'Search' placeholder.",
+    "screenshot_path": "data/screenshots/announcements.png",
+    "retrieved_at": "2026-06-12T12:11:46.626802"
+  },
+  {
+    "page_file": "contact.json",
+    "page_url": "/dashboard/contact",
+    "guideline_reference": "Support \u2014 FAQs, Tickets & Contact",
+    "guideline_excerpt": "S E C T I O N  1 1\nSupport \u2014 FAQs, Tickets & Contact\nThe Support section of the sidebar offers three ways to get help.\nFAQs\nURL  /dashboard/faqs\nThe FAQs page answers common questions about WaiverPro. Click any question to expand its\nanswer.\nFigure 11.1 \u2014 The FAQs page.\nSupport Tickets\nURL  /dashboard/tickets\n\n\n===== PAGE 20 =====\n\nThe Tickets page (\u201cSupport Tickets \u2014 Track and manage your support tickets.\u201d) lists your tickets as\ncards showing the ticket number, status and priority badges, and t",
+    "compliant": true,
+    "discrepancy_flag": false,
+    "discrepancy_reason": "The UI data for the /dashboard/contact page aligns with the guideline requirements. It includes the expected URL, a message form with fields for Name, Email, Subject, and Message, a 'Send Message' button, and displays support contact details for Email, Phone, Address, and Business Hours. The quick response information is also present, consistent with the guideline.",
+    "screenshot_path": "data/screenshots/contact.png",
+    "retrieved_at": "2026-06-12T12:11:48.803215"
+  },
+  {
+    "page_file": "facilities.json",
+    "page_url": "/dashboard/facilities",
+    "guideline_reference": "Facilities",
+    "guideline_excerpt": "S E C T I O N  7\nFacilities\nURL  /dashboard/facilities\nThe Facilities page lists the facilities in your organisation and tracks the status of their waiver\napplications.\nFigure 7.1 \u2014 The Facilities page, with status filters, the facilities table, and the Facilities Status Overview.\nFilters\nA row of status chips filters by application due-date status: All Facilities, Due Soon, Upcoming,\nScheduled, Overdue, and No Status. You can further filter by Role and Type, or search by\nname.\n\n\n===== PAGE 14 =",
+    "compliant": true,
+    "discrepancy_flag": false,
+    "discrepancy_reason": "The Facilities page is present at the specified URL. It contains status filters (All Facilities, Due Soon, Upcoming, Scheduled, Overdue, No Status), filters by Role and Type, and a search by name input field. The facilities table includes the columns Name, Type, License Number, License Exp Date, and Status. The Facilities Status Overview is also present below the table, and paging controls are evident ('Rows per page', 'Page 1 of 500').",
+    "screenshot_path": "data/screenshots/facilities.png",
+    "retrieved_at": "2026-06-12T12:11:51.553058"
+  },
+  {
+    "page_file": "faqs.json",
+    "page_url": "/dashboard/faqs",
+    "guideline_reference": "Support \u2014 FAQs, Tickets & Contact",
+    "guideline_excerpt": "S E C T I O N  1 1\nSupport \u2014 FAQs, Tickets & Contact\nThe Support section of the sidebar offers three ways to get help.\nFAQs\nURL  /dashboard/faqs\nThe FAQs page answers common questions about WaiverPro. Click any question to expand its\nanswer.\nFigure 11.1 \u2014 The FAQs page.\nSupport Tickets\nURL  /dashboard/tickets\n\n\n===== PAGE 20 =====\n\nThe Tickets page (\u201cSupport Tickets \u2014 Track and manage your support tickets.\u201d) lists your tickets as\ncards showing the ticket number, status and priority badges, and t",
+    "compliant": true,
+    "discrepancy_flag": false,
+    "discrepancy_reason": "The page URL '/dashboard/faqs' matches the guideline. The main heading 'FAQs' is present. The page correctly lists FAQs that can be expanded to show answers, as indicated by the 'expandable_content_detected' and 'expanded_content' data, and the presence of questions that are also buttons, implying they toggle content. The description 'The FAQs page answers common questions about WaiverPro. Click any question to expand its answer.' is fully supported by the UI data.",
+    "screenshot_path": "data/screenshots/faqs.png",
+    "retrieved_at": "2026-06-12T12:11:55.229878"
+  },
+  {
+    "page_file": "my-applications.json",
+    "page_url": "/dashboard/my-applications",
+    "guideline_reference": "My Applications",
+    "guideline_excerpt": "S E C T I O N  5\nMy Applications\nURL  /dashboard/my-applications\nThe My Applications dashboard is your home screen. It lists your waiver applications and\nsummarises them in two charts.\nFigure 5.1 \u2014 The My Applications dashboard: waiver-type tabs, status filters, the applications table, and the two\nsummary charts.\nFiltering the list\nTwo layers of filters narrow the table, each showing a live count:\nWaiver-type tabs \u2014 All, Patient Needs Waiver (PNW) Request, Program Flexibility\n(PF) Request, and W",
+    "compliant": true,
+    "discrepancy_flag": false,
+    "discrepancy_reason": "The UI contains all the specified Waiver-type tabs (All, Patient Needs Waiver (PNW) Request, Program Flexibility (PF) Request, Workforce Shortage Waiver (WSW) Request) and Status chips (All Applications, Draft, Submitted, Reopen, In Review, Rejected, Approved, Evaluator Review, Manager Review, Revoked, and Expired). The applications table includes all required columns (Waiver ID, Name, Facility, Type, Status, and Created on). Both summary charts, 'Applications by Type' and 'Applications Overview', are present and depict the specified breakdowns.",
+    "screenshot_path": "data/screenshots/my-applications.png",
+    "retrieved_at": "2026-06-12T12:12:04.109069"
+  },
+  {
+    "page_file": "settings.json",
+    "page_url": "/dashboard/settings",
+    "guideline_reference": "Settings",
+    "guideline_excerpt": "S E C T I O N  1 2\nSettings\nURL  /dashboard/settings\nThe Settings page (\u201cManage your account and preferences\u201d) shows your organisation and is\norganised into four cards.\nFigure 12.1 \u2014 The Settings page.\nOrganisation \u2014 the organisation your account belongs to is shown at the top of the page.\nProfile Information \u2014 your first name, last name, email (read-only), and phone number. Click\nSave Changes to update.\nNotifications \u2014 toggles for Email Notifications, Status Updates, and Action Items.\n\n\n===== P",
+    "compliant": true,
+    "discrepancy_flag": false,
+    "discrepancy_reason": "The Settings page displays an 'Organisation' heading, 'Profile Information' with first name, last name, email (read-only), and phone number fields, and a 'Save Changes' button. 'Notifications' section has toggles for Email Notifications, Status Updates, and Action Items. The 'Security' section allows password changes with a new password field stating 'At least 6 characters'. The 'Features' section includes toggles for 'Facilities Status Tracking' and 'FAQ Assistant Chatbot'.",
+    "screenshot_path": "data/screenshots/settings.png",
+    "retrieved_at": "2026-06-12T12:12:07.062543"
+  },
+  {
+    "page_file": "tickets.json",
+    "page_url": "/dashboard/tickets",
+    "guideline_reference": "Support \u2014 FAQs, Tickets & Contact",
+    "guideline_excerpt": "S E C T I O N  1 1\nSupport \u2014 FAQs, Tickets & Contact\nThe Support section of the sidebar offers three ways to get help.\nFAQs\nURL  /dashboard/faqs\nThe FAQs page answers common questions about WaiverPro. Click any question to expand its\nanswer.\nFigure 11.1 \u2014 The FAQs page.\nSupport Tickets\nURL  /dashboard/tickets\n\n\n===== PAGE 20 =====\n\nThe Tickets page (\u201cSupport Tickets \u2014 Track and manage your support tickets.\u201d) lists your tickets as\ncards showing the ticket number, status and priority badges, and t",
+    "compliant": true,
+    "discrepancy_flag": false,
+    "discrepancy_reason": "The UI data shows a '/dashboard/tickets' page with the heading 'Support Tickets', and a '+ New Ticket' button, consistent with the guideline's description of the Tickets page where users can 'Track and manage your support tickets.' and 'Click + New Ticket to raise one.' It also lists tickets as cards showing ticket number ('TICK-XXX'), status ('open', 'in-progress'), and priority ('medium') badges, and created/updated times, and 'View Details' buttons, all aligning with the guideline.",
+    "screenshot_path": "data/screenshots/tickets.png",
+    "retrieved_at": "2026-06-12T12:12:09.658580"
+  },
+  {
+    "page_file": "user-management.json",
+    "page_url": "/dashboard/user-management",
+    "guideline_reference": "User Management",
+    "guideline_excerpt": "S E C T I O N  9\nUser Management\nURL  /dashboard/user-management\nThe User Management page lets organisation administrators view and manage the people who\ncan access WaiverPro on behalf of the organisation.\nFigure 9.1 \u2014 The User Management page.\nTwo tabs separate current Members from Pending Invites, each showing a count. The table lists\neach user with the columns Name, Email, Associated Facilities, Last Updated, and Actions\n(edit and remove). To add someone, click Invite User in the top-right co",
+    "compliant": true,
+    "discrepancy_flag": false,
+    "discrepancy_reason": "The User Management page is present with the correct URL. It has tabs for 'Member' and 'Pending Invites' showing counts, a table with 'Name', 'Email', 'Associated Facilities', 'Last Updated', and 'Actions' columns.  An 'Invite User' button and a search input are also visible. Paging controls are indicated by 'Rows per page' and 'Page 1 of 1'.",
+    "screenshot_path": "data/screenshots/user-management.png",
+    "retrieved_at": "2026-06-12T12:12:13.159783"
+  }
+]

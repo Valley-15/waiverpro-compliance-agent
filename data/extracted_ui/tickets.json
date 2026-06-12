@@ -1,0 +1,481 @@
+{
+  "page_url": "/dashboard/tickets",
+  "screenshot_path": "data/screenshots/tickets.png",
+  "headings": [
+    "Support Tickets",
+    "TEST",
+    "TEST",
+    "I can't login - need password reset",
+    "Test",
+    "zsxdfcvg",
+    "zxecrv",
+    "testing support ticke submission",
+    "testing support ticket submission",
+    "testing support ticket submission",
+    "testing support ticket submission",
+    "testing support ticket submission",
+    "testing support ticket submission",
+    "My script is not showing correctly",
+    "My script is not showing correctly",
+    "My script is not showing correctly",
+    "My script is not showing correctly",
+    "Login issue",
+    "Waiver Application Submission Failure",
+    "Login Issue – Unable to Access Waiver Pro Portal"
+  ],
+  "sections": [
+    "TEST",
+    "I can't login - need password reset",
+    "Test",
+    "zsxdfcvg",
+    "zxecrv",
+    "testing support ticke submission",
+    "testing support ticket submission",
+    "My script is not showing correctly",
+    "Login issue",
+    "Waiver Application Submission Failure",
+    "Login Issue – Unable to Access Waiver Pro Portal"
+  ],
+  "buttons": [
+    {
+      "text": "+ New Application",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Take a Tour",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "+ New Ticket",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "12",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "AD",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "All",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "All",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "View Details",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "View Details",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "View Details",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "View Details",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "View Details",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "View Details",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "View Details",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "View Details",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "View Details",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "View Details",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "View Details",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "View Details",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "View Details",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "View Details",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "View Details",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "View Details",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "View Details",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "View Details",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "View Details",
+      "aria_label": null,
+      "title": null
+    }
+  ],
+  "links": [
+    {
+      "text": "My Applications",
+      "href": "/dashboard/my-applications"
+    },
+    {
+      "text": "Facilities",
+      "href": "/dashboard/facilities"
+    },
+    {
+      "text": "Action Items",
+      "href": "/dashboard/action-items"
+    },
+    {
+      "text": "User Management",
+      "href": "/dashboard/user-management"
+    },
+    {
+      "text": "Announcements",
+      "href": "/dashboard/announcements"
+    },
+    {
+      "text": "Settings",
+      "href": "/dashboard/settings"
+    },
+    {
+      "text": "FAQs",
+      "href": "/dashboard/faqs"
+    },
+    {
+      "text": "Tickets",
+      "href": "/dashboard/tickets"
+    },
+    {
+      "text": "Contact",
+      "href": "/dashboard/contact"
+    }
+  ],
+  "table_links": [],
+  "inputs": [],
+  "selects": [],
+  "textareas": [],
+  "tables": [],
+  "pagination": [],
+  "expandable_content_detected": true,
+  "expanded_content": [
+    "New Waiver Application\n\nComplete the form to submit your waiver request\n\nWaiver Type\nSelect Location\nFill Application\nSelect Waiver Type\n\nChoose the type of waiver request that best matches your needs\n\nPatient Needs Waiver (PNW) Request\n\nApply when the facility is seeking a waiver of the 2.4 CNA requirement to meet individual patient needs but will provide a minimum of 3.5 direct care service hours. Facilities may only submit one Patient Needs Waiver and/or one Workforce Shortage Waiver application in the same year. If submitting both, only one may be approved.\n\nProgram Flexibility (PF) Request\n\nApply when the facility is seeking program flexibility to regulations. The request must include justification for the program flexibility, adequate description of the alternative concept, and documentation supporting that patient care will not be compromised. The facility may request program flexibility that is intended to be emergency or routine. An approved program flexibility request is for a limited term with a start and an end date. Facilities may submit more than one application as needed.\n\nWorkforce Shortage Waiver (WSW) Request\n\nExpired\n\nApply when the facility is seeking a waiver of the 3.5 direct care service hours requirement and/or the 2.4 CNA hours requirement due to a workforce shortage of available and appropriate health care professionals and direct care givers. Facilities may only submit one Patient Needs Waiver and/or one Workforce Shortage Waiver application in the same year. If submitting both, only one may be approved.\n\nThis waiver is no longer available\n\nThis waiver was available from Dec 29, 2025 to Apr 30, 2026\n\nNext\nClose"
+  ],
+  "components": [
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "+ New Application",
+      "retrieved_at": "2026-06-12T12:11:22.079Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Take a Tour",
+      "retrieved_at": "2026-06-12T12:11:22.088Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "+ New Ticket",
+      "retrieved_at": "2026-06-12T12:11:22.100Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "12",
+      "retrieved_at": "2026-06-12T12:11:22.111Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "AD",
+      "retrieved_at": "2026-06-12T12:11:22.122Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "All",
+      "retrieved_at": "2026-06-12T12:11:22.145Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "All",
+      "retrieved_at": "2026-06-12T12:11:22.157Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "View Details",
+      "retrieved_at": "2026-06-12T12:11:22.169Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "View Details",
+      "retrieved_at": "2026-06-12T12:11:22.181Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "View Details",
+      "retrieved_at": "2026-06-12T12:11:22.193Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "View Details",
+      "retrieved_at": "2026-06-12T12:11:22.204Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "View Details",
+      "retrieved_at": "2026-06-12T12:11:22.214Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "View Details",
+      "retrieved_at": "2026-06-12T12:11:22.223Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "View Details",
+      "retrieved_at": "2026-06-12T12:11:22.233Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "View Details",
+      "retrieved_at": "2026-06-12T12:11:22.243Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "View Details",
+      "retrieved_at": "2026-06-12T12:11:22.251Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "View Details",
+      "retrieved_at": "2026-06-12T12:11:22.261Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "View Details",
+      "retrieved_at": "2026-06-12T12:11:22.269Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "View Details",
+      "retrieved_at": "2026-06-12T12:11:22.279Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "View Details",
+      "retrieved_at": "2026-06-12T12:11:22.288Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "View Details",
+      "retrieved_at": "2026-06-12T12:11:22.299Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "View Details",
+      "retrieved_at": "2026-06-12T12:11:22.310Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "View Details",
+      "retrieved_at": "2026-06-12T12:11:22.318Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "View Details",
+      "retrieved_at": "2026-06-12T12:11:22.327Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "View Details",
+      "retrieved_at": "2026-06-12T12:11:22.334Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "View Details",
+      "retrieved_at": "2026-06-12T12:11:22.342Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Waiver Type",
+      "retrieved_at": "2026-06-12T12:11:22.351Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Select Location",
+      "retrieved_at": "2026-06-12T12:11:22.359Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Fill Application",
+      "retrieved_at": "2026-06-12T12:11:22.367Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:22.376Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:22.384Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:22.392Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Next",
+      "retrieved_at": "2026-06-12T12:11:22.400Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Close",
+      "retrieved_at": "2026-06-12T12:11:22.408Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "My Applications",
+      "retrieved_at": "2026-06-12T12:11:22.422Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Facilities",
+      "retrieved_at": "2026-06-12T12:11:22.432Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Action Items",
+      "retrieved_at": "2026-06-12T12:11:22.445Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "User Management",
+      "retrieved_at": "2026-06-12T12:11:22.454Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Announcements",
+      "retrieved_at": "2026-06-12T12:11:22.467Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Settings",
+      "retrieved_at": "2026-06-12T12:11:22.476Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "FAQs",
+      "retrieved_at": "2026-06-12T12:11:22.484Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Tickets",
+      "retrieved_at": "2026-06-12T12:11:22.494Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Contact",
+      "retrieved_at": "2026-06-12T12:11:22.503Z"
+    }
+  ],
+  "accessibility_tree": null,
+  "page_text": "WaiverPro\nHealthcare Waiver Management\n+ New Application\nMy Applications\nFacilities\nAction Items\nUser Management\nAnnouncements\nSettings\nSupport\nFAQs\nTickets\nContact\nTake a Tour\nSupport Tickets\n\nTrack and manage your support tickets.\n\n+ New Ticket\n12\nAD\nStatus:\nAll\nPriority:\nAll\nTICK-019\nopen\nmedium\nTEST\n\nTEST\n\nCreated 1 day ago\n0 replies\nUpdated 1 day ago\nView Details\nTICK-018\nopen\nmedium\nTEST\n\nTEST\n\nCreated 1 day ago\n0 replies\nUpdated 1 day ago\nView Details\nTICK-017\nin-progress\nmedium\nI can't login - need password reset\nCreated 1 day ago\n0 replies\nUpdated 1 day ago\nView Details\nTICK-016\nopen\nmedium\nTest\n\nTest description\n\nCreated 15 days ago\n0 replies\nUpdated 15 days ago\nView Details\nTICK-015\nopen\nmedium\nzsxdfcvg\n\nzsxdcfv\n\nCreated 29 days ago\n0 replies\nUpdated 29 days ago\nView Details\nTICK-014\nopen\nmedium\nzxecrv\n\nsedfr\n\nCreated 29 days ago\n0 replies\nUpdated 29 days ago\nView Details\nTICK-013\nopen\nmedium\ntesting support ticke submission\n\nazsdxfcvg\n\nCreated 29 days ago\n0 replies\nUpdated 29 days ago\nView Details\nTICK-012\nopen\nmedium\ntesting support ticket submission\n\nzsdxfc\n\nCreated 29 days ago\n0 replies\nUpdated 29 days ago\nView Details\nTICK-011\nopen\nmedium\ntesting support ticket submission\n\nzsdxfc\n\nCreated 29 days ago\n0 replies\nUpdated 29 days ago\nView Details\nTICK-010\nopen\nmedium\ntesting support ticket submission\n\nxdcf\n\nCreated 29 days ago\n0 replies\nUpdated 29 days ago\nView Details\nTICK-009\nopen\nmedium\ntesting support ticket submission\n\nzxcfvgbhnjkm\n\nCreated 29 days ago\n0 replies\nUpdated 29 days ago\nView Details\nTICK-008\nopen\nmedium\ntesting support ticket submission\n\nzsxdfc\n\nCreated 29 days ago\n0 replies\nUpdated 29 days ago\nView Details\nTICK-007\nopen\nmedium\nMy script is not showing correctly\nCreated 29 days ago\n0 replies\nUpdated 29 days ago\nView Details\nTICK-006\nopen\nmedium\nMy script is not showing correctly\nCreated 29 days ago\n0 replies\nUpdated 29 days ago\nView Details\nTICK-005\nopen\nmedium\nMy script is not showing correctly\nCreated 29 days ago\n0 replies\nUpdated 29 days ago\nView Details\nTICK-004\nopen\nmedium\nMy script is not showing correctly\nCreated 29 days ago\n0 replies\nUpdated 29 days ago\nView Details\nTICK-003\nopen\nmedium\nLogin issue\n\nUnable to login\n\nCreated 2 months ago\n0 replies\nUpdated 2 months ago\nView Details\nTICK-002\nopen\nmedium\nWaiver Application Submission Failure\n\nWhile submitting a completed waiver application, the system displays an error message and prevents submission. All required fields appear to be filled. The issue occurs consistently when clicking the Submit Application button. User requests investigation into potential system or validation errors.\n\nCreated 3 months ago\n1 replies\nUpdated 3 months ago\nView Details\nTICK-001\nopen\nmedium\nLogin Issue – Unable to Access Waiver Pro Portal\n\nUser from CDPH is unable to log into the Waiver Pro portal. After entering valid credentials, the system either refreshes the login page or shows an authentication error. The issue started today and persists across different browsers (Chrome and Edge). User requests assistance in verifying account status and resetting access if necessary.\n\nCreated 3 months ago\n0 replies\nUpdated 3 months ago\nView Details"
+}

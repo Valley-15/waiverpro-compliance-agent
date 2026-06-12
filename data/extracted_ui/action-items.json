@@ -1,0 +1,398 @@
+{
+  "page_url": "/dashboard/action-items",
+  "screenshot_path": "data/screenshots/action-items.png",
+  "headings": [
+    "Action Items",
+    "Action Items"
+  ],
+  "sections": [
+    "Action Items"
+  ],
+  "buttons": [
+    {
+      "text": "+ New Application",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Take a Tour",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "12",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "AD",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Status",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Priority",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "10",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": null
+    }
+  ],
+  "links": [
+    {
+      "text": "My Applications",
+      "href": "/dashboard/my-applications"
+    },
+    {
+      "text": "Facilities",
+      "href": "/dashboard/facilities"
+    },
+    {
+      "text": "Action Items",
+      "href": "/dashboard/action-items"
+    },
+    {
+      "text": "User Management",
+      "href": "/dashboard/user-management"
+    },
+    {
+      "text": "Announcements",
+      "href": "/dashboard/announcements"
+    },
+    {
+      "text": "Settings",
+      "href": "/dashboard/settings"
+    },
+    {
+      "text": "FAQs",
+      "href": "/dashboard/faqs"
+    },
+    {
+      "text": "Tickets",
+      "href": "/dashboard/tickets"
+    },
+    {
+      "text": "Contact",
+      "href": "/dashboard/contact"
+    }
+  ],
+  "table_links": [],
+  "inputs": [
+    {
+      "type": null,
+      "name": null,
+      "placeholder": "Search",
+      "aria_label": null,
+      "value": ""
+    }
+  ],
+  "selects": [],
+  "textareas": [],
+  "tables": [
+    {
+      "headers": [
+        "",
+        "ID",
+        "Name",
+        "Status",
+        "Priority",
+        "Due Date"
+      ],
+      "rows": [
+        [
+          "",
+          "TASK-90586",
+          "test 1",
+          "Done",
+          "High",
+          "114d overdue"
+        ],
+        [
+          "",
+          "TASK-62923",
+          "Upload Documents",
+          "Done",
+          "High",
+          "99d overdue"
+        ],
+        [
+          "",
+          "TASK-32250",
+          "Action item test",
+          "In Process",
+          "High",
+          "105d overdue"
+        ],
+        [
+          "",
+          "TASK-92587",
+          "Test Record - DailyStandup",
+          "In Process",
+          "High",
+          "104d overdue"
+        ],
+        [
+          "",
+          "TASK-56375",
+          "Test Record - DailyStandup March 1st",
+          "Done",
+          "High",
+          "103d overdue"
+        ],
+        [
+          "",
+          "TASK-61060",
+          "Upload Documents",
+          "Done",
+          "Low",
+          "102d overdue"
+        ],
+        [
+          "",
+          "TASK-72133",
+          "action item 1",
+          "In Process",
+          "High",
+          "91d overdue"
+        ],
+        [
+          "",
+          "TASK-36069",
+          "action item 2",
+          "In Process",
+          "Low",
+          "90d overdue"
+        ],
+        [
+          "",
+          "TASK-24204",
+          "Test Record",
+          "In Process",
+          "High",
+          "105d overdue"
+        ],
+        [
+          "",
+          "TASK-39067",
+          "Upload notes",
+          "In Process",
+          "Medium",
+          "102d overdue"
+        ]
+      ]
+    }
+  ],
+  "pagination": [
+    "Rows per page",
+    "Page "
+  ],
+  "expandable_content_detected": true,
+  "expanded_content": [
+    "New Waiver Application\n\nComplete the form to submit your waiver request\n\nWaiver Type\nSelect Location\nFill Application\nSelect Waiver Type\n\nChoose the type of waiver request that best matches your needs\n\nPatient Needs Waiver (PNW) Request\n\nApply when the facility is seeking a waiver of the 2.4 CNA requirement to meet individual patient needs but will provide a minimum of 3.5 direct care service hours. Facilities may only submit one Patient Needs Waiver and/or one Workforce Shortage Waiver application in the same year. If submitting both, only one may be approved.\n\nProgram Flexibility (PF) Request\n\nApply when the facility is seeking program flexibility to regulations. The request must include justification for the program flexibility, adequate description of the alternative concept, and documentation supporting that patient care will not be compromised. The facility may request program flexibility that is intended to be emergency or routine. An approved program flexibility request is for a limited term with a start and an end date. Facilities may submit more than one application as needed.\n\nWorkforce Shortage Waiver (WSW) Request\n\nExpired\n\nApply when the facility is seeking a waiver of the 3.5 direct care service hours requirement and/or the 2.4 CNA hours requirement due to a workforce shortage of available and appropriate health care professionals and direct care givers. Facilities may only submit one Patient Needs Waiver and/or one Workforce Shortage Waiver application in the same year. If submitting both, only one may be approved.\n\nThis waiver is no longer available\n\nThis waiver was available from Dec 29, 2025 to Apr 30, 2026\n\nNext\nClose"
+  ],
+  "components": [
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "+ New Application",
+      "retrieved_at": "2026-06-12T12:10:54.262Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Take a Tour",
+      "retrieved_at": "2026-06-12T12:10:54.270Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "12",
+      "retrieved_at": "2026-06-12T12:10:54.279Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "AD",
+      "retrieved_at": "2026-06-12T12:10:54.287Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Status",
+      "retrieved_at": "2026-06-12T12:10:54.296Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Priority",
+      "retrieved_at": "2026-06-12T12:10:54.304Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "10",
+      "retrieved_at": "2026-06-12T12:10:54.313Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:10:54.323Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:10:54.333Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:10:54.341Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:10:54.350Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Waiver Type",
+      "retrieved_at": "2026-06-12T12:10:54.360Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Select Location",
+      "retrieved_at": "2026-06-12T12:10:54.374Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Fill Application",
+      "retrieved_at": "2026-06-12T12:10:54.386Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:10:54.396Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:10:54.406Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:10:54.415Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Next",
+      "retrieved_at": "2026-06-12T12:10:54.424Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Close",
+      "retrieved_at": "2026-06-12T12:10:54.435Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "My Applications",
+      "retrieved_at": "2026-06-12T12:10:54.448Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Facilities",
+      "retrieved_at": "2026-06-12T12:10:54.457Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Action Items",
+      "retrieved_at": "2026-06-12T12:10:54.465Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "User Management",
+      "retrieved_at": "2026-06-12T12:10:54.474Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Announcements",
+      "retrieved_at": "2026-06-12T12:10:54.484Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Settings",
+      "retrieved_at": "2026-06-12T12:10:54.493Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "FAQs",
+      "retrieved_at": "2026-06-12T12:10:54.502Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Tickets",
+      "retrieved_at": "2026-06-12T12:10:54.512Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Contact",
+      "retrieved_at": "2026-06-12T12:10:54.522Z"
+    },
+    {
+      "component_type": "input",
+      "component_selector": "input",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:10:54.535Z"
+    }
+  ],
+  "accessibility_tree": null,
+  "page_text": "WaiverPro\nHealthcare Waiver Management\n+ New Application\nMy Applications\nFacilities\nAction Items\nUser Management\nAnnouncements\nSettings\nSupport\nFAQs\nTickets\nContact\nTake a Tour\nAction Items\n12\nAD\nStatus\nPriority\n\tID\tName\tStatus\tPriority\tDue Date\n\n\tTASK-90586\t\ntest 1\n\t\nDone\t\nHigh\t114d overdue\n\n\tTASK-62923\t\nUpload Documents\n\t\nDone\t\nHigh\t99d overdue\n\n\tTASK-32250\t\nAction item test\n\t\nIn Process\t\nHigh\t105d overdue\n\n\tTASK-92587\t\nTest Record - DailyStandup\n\t\nIn Process\t\nHigh\t104d overdue\n\n\tTASK-56375\t\nTest Record - DailyStandup March 1st\n\t\nDone\t\nHigh\t103d overdue\n\n\tTASK-61060\t\nUpload Documents\n\t\nDone\t\nLow\t102d overdue\n\n\tTASK-72133\t\naction item 1\n\t\nIn Process\t\nHigh\t91d overdue\n\n\tTASK-36069\t\naction item 2\n\t\nIn Process\t\nLow\t90d overdue\n\n\tTASK-24204\t\nTest Record\n\t\nIn Process\t\nHigh\t105d overdue\n\n\tTASK-39067\t\nUpload notes\n\t\nIn Process\t\nMedium\t102d overdue\nRows per page\n10\nPage 1 of 2\nAction Items\nHigh\nLow\nMedium\n12\nTotal"
+}

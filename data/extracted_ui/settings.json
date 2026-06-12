@@ -1,0 +1,388 @@
+{
+  "page_url": "/dashboard/settings",
+  "screenshot_path": "data/screenshots/settings.png",
+  "headings": [
+    "Settings",
+    "Partner Sample",
+    "Profile Information",
+    "Notifications",
+    "Security",
+    "Features"
+  ],
+  "sections": [
+    "Partner Sample",
+    "Profile Information",
+    "Notifications",
+    "Security",
+    "Features"
+  ],
+  "buttons": [
+    {
+      "text": "+ New Application",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Take a Tour",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "12",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "AD",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Save Changes",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Change Password",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": null
+    }
+  ],
+  "links": [
+    {
+      "text": "My Applications",
+      "href": "/dashboard/my-applications"
+    },
+    {
+      "text": "Facilities",
+      "href": "/dashboard/facilities"
+    },
+    {
+      "text": "Action Items",
+      "href": "/dashboard/action-items"
+    },
+    {
+      "text": "User Management",
+      "href": "/dashboard/user-management"
+    },
+    {
+      "text": "Announcements",
+      "href": "/dashboard/announcements"
+    },
+    {
+      "text": "Settings",
+      "href": "/dashboard/settings"
+    },
+    {
+      "text": "FAQs",
+      "href": "/dashboard/faqs"
+    },
+    {
+      "text": "Tickets",
+      "href": "/dashboard/tickets"
+    },
+    {
+      "text": "Contact",
+      "href": "/dashboard/contact"
+    }
+  ],
+  "table_links": [],
+  "inputs": [
+    {
+      "type": null,
+      "name": null,
+      "placeholder": null,
+      "aria_label": null,
+      "value": "Admin"
+    },
+    {
+      "type": null,
+      "name": null,
+      "placeholder": null,
+      "aria_label": null,
+      "value": "CDPH"
+    },
+    {
+      "type": "email",
+      "name": null,
+      "placeholder": null,
+      "aria_label": null,
+      "value": "admin@gmail.com"
+    },
+    {
+      "type": "tel",
+      "name": null,
+      "placeholder": null,
+      "aria_label": null,
+      "value": ""
+    },
+    {
+      "type": "password",
+      "name": null,
+      "placeholder": null,
+      "aria_label": null,
+      "value": ""
+    },
+    {
+      "type": "password",
+      "name": null,
+      "placeholder": "At least 6 characters",
+      "aria_label": null,
+      "value": ""
+    },
+    {
+      "type": "password",
+      "name": null,
+      "placeholder": null,
+      "aria_label": null,
+      "value": ""
+    }
+  ],
+  "selects": [],
+  "textareas": [],
+  "tables": [],
+  "pagination": [],
+  "expandable_content_detected": true,
+  "expanded_content": [
+    "New Waiver Application\n\nComplete the form to submit your waiver request\n\nWaiver Type\nSelect Location\nFill Application\nSelect Waiver Type\n\nChoose the type of waiver request that best matches your needs\n\nPatient Needs Waiver (PNW) Request\n\nApply when the facility is seeking a waiver of the 2.4 CNA requirement to meet individual patient needs but will provide a minimum of 3.5 direct care service hours. Facilities may only submit one Patient Needs Waiver and/or one Workforce Shortage Waiver application in the same year. If submitting both, only one may be approved.\n\nProgram Flexibility (PF) Request\n\nApply when the facility is seeking program flexibility to regulations. The request must include justification for the program flexibility, adequate description of the alternative concept, and documentation supporting that patient care will not be compromised. The facility may request program flexibility that is intended to be emergency or routine. An approved program flexibility request is for a limited term with a start and an end date. Facilities may submit more than one application as needed.\n\nWorkforce Shortage Waiver (WSW) Request\n\nExpired\n\nApply when the facility is seeking a waiver of the 3.5 direct care service hours requirement and/or the 2.4 CNA hours requirement due to a workforce shortage of available and appropriate health care professionals and direct care givers. Facilities may only submit one Patient Needs Waiver and/or one Workforce Shortage Waiver application in the same year. If submitting both, only one may be approved.\n\nThis waiver is no longer available\n\nThis waiver was available from Dec 29, 2025 to Apr 30, 2026\n\nNext\nClose"
+  ],
+  "components": [
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "+ New Application",
+      "retrieved_at": "2026-06-12T12:11:35.122Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Take a Tour",
+      "retrieved_at": "2026-06-12T12:11:35.129Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "12",
+      "retrieved_at": "2026-06-12T12:11:35.137Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "AD",
+      "retrieved_at": "2026-06-12T12:11:35.145Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Save Changes",
+      "retrieved_at": "2026-06-12T12:11:35.153Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:35.161Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:35.169Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:35.176Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Change Password",
+      "retrieved_at": "2026-06-12T12:11:35.184Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:35.192Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:35.201Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Waiver Type",
+      "retrieved_at": "2026-06-12T12:11:35.209Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Select Location",
+      "retrieved_at": "2026-06-12T12:11:35.216Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Fill Application",
+      "retrieved_at": "2026-06-12T12:11:35.224Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:35.232Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:35.240Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:35.249Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Next",
+      "retrieved_at": "2026-06-12T12:11:35.257Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Close",
+      "retrieved_at": "2026-06-12T12:11:35.266Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "My Applications",
+      "retrieved_at": "2026-06-12T12:11:35.277Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Facilities",
+      "retrieved_at": "2026-06-12T12:11:35.285Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Action Items",
+      "retrieved_at": "2026-06-12T12:11:35.292Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "User Management",
+      "retrieved_at": "2026-06-12T12:11:35.300Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Announcements",
+      "retrieved_at": "2026-06-12T12:11:35.309Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Settings",
+      "retrieved_at": "2026-06-12T12:11:35.317Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "FAQs",
+      "retrieved_at": "2026-06-12T12:11:35.325Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Tickets",
+      "retrieved_at": "2026-06-12T12:11:35.333Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Contact",
+      "retrieved_at": "2026-06-12T12:11:35.341Z"
+    },
+    {
+      "component_type": "input",
+      "component_selector": "input",
+      "actual_text_content": "Admin",
+      "retrieved_at": "2026-06-12T12:11:35.353Z"
+    },
+    {
+      "component_type": "input",
+      "component_selector": "input",
+      "actual_text_content": "CDPH",
+      "retrieved_at": "2026-06-12T12:11:35.362Z"
+    },
+    {
+      "component_type": "input",
+      "component_selector": "input",
+      "actual_text_content": "admin@gmail.com",
+      "retrieved_at": "2026-06-12T12:11:35.370Z"
+    },
+    {
+      "component_type": "input",
+      "component_selector": "input",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:35.377Z"
+    },
+    {
+      "component_type": "input",
+      "component_selector": "input",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:35.386Z"
+    },
+    {
+      "component_type": "input",
+      "component_selector": "input",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:35.393Z"
+    },
+    {
+      "component_type": "input",
+      "component_selector": "input",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:35.401Z"
+    }
+  ],
+  "accessibility_tree": null,
+  "page_text": "WaiverPro\nHealthcare Waiver Management\n+ New Application\nMy Applications\nFacilities\nAction Items\nUser Management\nAnnouncements\nSettings\nSupport\nFAQs\nTickets\nContact\nTake a Tour\nSettings\n\nManage your account and preferences\n\n12\nAD\nP\n\nORGANISATION\n\nPartner Sample\nProfile Information\nFirst Name\nLast Name\nEmail\n\nEmail address cannot be changed\n\nPhone Number\nSave Changes\nNotifications\nEmail Notifications\n\nReceive updates about your applications\n\nStatus Updates\n\nGet notified when application status changes\n\nAction Items\n\nAlerts for tasks requiring your attention\n\nSecurity\nCurrent Password\nNew Password\n\nPassword must be at least 6 characters long\n\nConfirm New Password\nChange Password\nFeatures\n\nToggle experimental or upcoming features\n\nFacilities Status Tracking\n\nShow application due dates and status on the Facilities page\n\nFAQ Assistant Chatbot\n\nShow the AI FAQ assistant. Off by default to avoid loading it on every page."
+}

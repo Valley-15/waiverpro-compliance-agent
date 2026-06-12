@@ -1,0 +1,441 @@
+{
+  "page_url": "/dashboard/user-management",
+  "screenshot_path": "data/screenshots/user-management.png",
+  "headings": [
+    "User Management"
+  ],
+  "sections": [],
+  "buttons": [
+    {
+      "text": "+ New Application",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Take a Tour",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "12",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "AD",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Member (4)",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Pending Invites\n16",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "Invite User",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": "Edit"
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": "Delete"
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": "Edit"
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": "Delete"
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": "Edit"
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": "Delete"
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": "Edit"
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": "Delete"
+    },
+    {
+      "text": "10",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": null
+    },
+    {
+      "text": "",
+      "aria_label": null,
+      "title": null
+    }
+  ],
+  "links": [
+    {
+      "text": "My Applications",
+      "href": "/dashboard/my-applications"
+    },
+    {
+      "text": "Facilities",
+      "href": "/dashboard/facilities"
+    },
+    {
+      "text": "Action Items",
+      "href": "/dashboard/action-items"
+    },
+    {
+      "text": "User Management",
+      "href": "/dashboard/user-management"
+    },
+    {
+      "text": "Announcements",
+      "href": "/dashboard/announcements"
+    },
+    {
+      "text": "Settings",
+      "href": "/dashboard/settings"
+    },
+    {
+      "text": "FAQs",
+      "href": "/dashboard/faqs"
+    },
+    {
+      "text": "Tickets",
+      "href": "/dashboard/tickets"
+    },
+    {
+      "text": "Contact",
+      "href": "/dashboard/contact"
+    }
+  ],
+  "table_links": [],
+  "inputs": [
+    {
+      "type": null,
+      "name": null,
+      "placeholder": "Search",
+      "aria_label": null,
+      "value": ""
+    }
+  ],
+  "selects": [],
+  "textareas": [],
+  "tables": [
+    {
+      "headers": [
+        "Name",
+        "Email",
+        "Associated Facilities",
+        "Last Updated",
+        "Actions"
+      ],
+      "rows": [
+        [
+          "Siva Siva",
+          "siddakasivareddy@gmail.com",
+          "3",
+          "2 months ago",
+          ""
+        ],
+        [
+          "adam smiths",
+          "adam.smith@gmail.com",
+          "3",
+          "3 months ago",
+          ""
+        ],
+        [
+          "Siva reddy",
+          "sivareddy103@gmail.com",
+          "3",
+          "4 months ago",
+          ""
+        ],
+        [
+          "Partner Admin",
+          "admin@firstupconsultants.com",
+          "6",
+          "4 months ago",
+          ""
+        ]
+      ]
+    }
+  ],
+  "pagination": [
+    "Rows per page",
+    "Page "
+  ],
+  "expandable_content_detected": true,
+  "expanded_content": [
+    "New Waiver Application\n\nComplete the form to submit your waiver request\n\nWaiver Type\nSelect Location\nFill Application\nSelect Waiver Type\n\nChoose the type of waiver request that best matches your needs\n\nPatient Needs Waiver (PNW) Request\n\nApply when the facility is seeking a waiver of the 2.4 CNA requirement to meet individual patient needs but will provide a minimum of 3.5 direct care service hours. Facilities may only submit one Patient Needs Waiver and/or one Workforce Shortage Waiver application in the same year. If submitting both, only one may be approved.\n\nProgram Flexibility (PF) Request\n\nApply when the facility is seeking program flexibility to regulations. The request must include justification for the program flexibility, adequate description of the alternative concept, and documentation supporting that patient care will not be compromised. The facility may request program flexibility that is intended to be emergency or routine. An approved program flexibility request is for a limited term with a start and an end date. Facilities may submit more than one application as needed.\n\nWorkforce Shortage Waiver (WSW) Request\n\nExpired\n\nApply when the facility is seeking a waiver of the 3.5 direct care service hours requirement and/or the 2.4 CNA hours requirement due to a workforce shortage of available and appropriate health care professionals and direct care givers. Facilities may only submit one Patient Needs Waiver and/or one Workforce Shortage Waiver application in the same year. If submitting both, only one may be approved.\n\nThis waiver is no longer available\n\nThis waiver was available from Dec 29, 2025 to Apr 30, 2026\n\nNext\nClose"
+  ],
+  "components": [
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "+ New Application",
+      "retrieved_at": "2026-06-12T12:11:01.530Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Take a Tour",
+      "retrieved_at": "2026-06-12T12:11:01.542Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "12",
+      "retrieved_at": "2026-06-12T12:11:01.555Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "AD",
+      "retrieved_at": "2026-06-12T12:11:01.568Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Member (4)",
+      "retrieved_at": "2026-06-12T12:11:01.578Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Pending Invites\n16",
+      "retrieved_at": "2026-06-12T12:11:01.592Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Invite User",
+      "retrieved_at": "2026-06-12T12:11:01.606Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:01.618Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:01.633Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:01.644Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:01.662Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:01.679Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:01.695Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:01.707Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:01.722Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "10",
+      "retrieved_at": "2026-06-12T12:11:01.738Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:01.754Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:01.772Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:01.792Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:01.809Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Waiver Type",
+      "retrieved_at": "2026-06-12T12:11:01.824Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Select Location",
+      "retrieved_at": "2026-06-12T12:11:01.840Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Fill Application",
+      "retrieved_at": "2026-06-12T12:11:01.856Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:01.868Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:01.880Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:01.895Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Next",
+      "retrieved_at": "2026-06-12T12:11:01.910Z"
+    },
+    {
+      "component_type": "button",
+      "component_selector": "button",
+      "actual_text_content": "Close",
+      "retrieved_at": "2026-06-12T12:11:01.927Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "My Applications",
+      "retrieved_at": "2026-06-12T12:11:01.946Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Facilities",
+      "retrieved_at": "2026-06-12T12:11:01.962Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Action Items",
+      "retrieved_at": "2026-06-12T12:11:01.978Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "User Management",
+      "retrieved_at": "2026-06-12T12:11:01.990Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Announcements",
+      "retrieved_at": "2026-06-12T12:11:02.001Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Settings",
+      "retrieved_at": "2026-06-12T12:11:02.012Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "FAQs",
+      "retrieved_at": "2026-06-12T12:11:02.023Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Tickets",
+      "retrieved_at": "2026-06-12T12:11:02.034Z"
+    },
+    {
+      "component_type": "link",
+      "component_selector": "a",
+      "actual_text_content": "Contact",
+      "retrieved_at": "2026-06-12T12:11:02.050Z"
+    },
+    {
+      "component_type": "input",
+      "component_selector": "input",
+      "actual_text_content": "",
+      "retrieved_at": "2026-06-12T12:11:02.073Z"
+    }
+  ],
+  "accessibility_tree": null,
+  "page_text": "WaiverPro\nHealthcare Waiver Management\n+ New Application\nMy Applications\nFacilities\nAction Items\nUser Management\nAnnouncements\nSettings\nSupport\nFAQs\nTickets\nContact\nTake a Tour\nUser Management\n12\nAD\nMember (4)\nPending Invites\n16\nInvite User\nName\tEmail\tAssociated Facilities\tLast Updated\tActions\n\nSiva Siva\n\tsiddakasivareddy@gmail.com\t3\t2 months ago\t\n\n\nadam smiths\n\tadam.smith@gmail.com\t3\t3 months ago\t\n\n\nSiva reddy\n\tsivareddy103@gmail.com\t3\t4 months ago\t\n\n\nPartner Admin\n\tadmin@firstupconsultants.com\t6\t4 months ago\t\nRows per page\n10\nPage 1 of 1"
+}

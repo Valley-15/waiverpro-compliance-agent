@@ -8,6 +8,7 @@ PASSWORD = "password"
 
 
 def login(page):
+
     page.goto(URL)
 
     page.click("text=Getting Started")
@@ -17,7 +18,67 @@ def login(page):
 
     page.click("button")
 
+    page.wait_for_load_state("networkidle")
     page.wait_for_timeout(3000)
+
+
+def extract_inputs(page):
+
+    results = []
+
+    inputs = page.locator("input").all()
+
+    for item in inputs:
+
+        try:
+            results.append({
+                "type": item.get_attribute("type"),
+                "name": item.get_attribute("name"),
+                "placeholder": item.get_attribute("placeholder"),
+                "aria_label": item.get_attribute("aria-label")
+            })
+        except:
+            pass
+
+    return results
+
+
+def extract_selects(page):
+
+    results = []
+
+    selects = page.locator("select").all()
+
+    for item in selects:
+
+        try:
+            results.append({
+                "name": item.get_attribute("name"),
+                "aria_label": item.get_attribute("aria-label")
+            })
+        except:
+            pass
+
+    return results
+
+
+def extract_textareas(page):
+
+    results = []
+
+    areas = page.locator("textarea").all()
+
+    for item in areas:
+
+        try:
+            results.append({
+                "name": item.get_attribute("name"),
+                "placeholder": item.get_attribute("placeholder")
+            })
+        except:
+            pass
+
+    return results
 
 
 def extract_page(page, route):
@@ -33,36 +94,50 @@ def extract_page(page, route):
 
     links = page.locator("a").all_inner_texts()
 
-    texts = page.locator("body").inner_text()
+    page_text = page.locator("body").inner_text()
+
+    inputs = extract_inputs(page)
+
+    selects = extract_selects(page)
+
+    textareas = extract_textareas(page)
 
     return {
         "page_url": route,
         "headings": headings,
         "buttons": buttons,
         "links": links,
-        "page_text": texts
+        "inputs": inputs,
+        "selects": selects,
+        "textareas": textareas,
+        "page_text": page_text
     }
 
 
 def main():
 
-    os.makedirs("data/extracted_ui", exist_ok=True)
+    os.makedirs(
+        "data/extracted_ui",
+        exist_ok=True
+    )
 
     pages = [
-    "/dashboard/my-applications",
-    "/dashboard/facilities",
-    "/dashboard/action-items",
-    "/dashboard/user-management",
-    "/dashboard/announcements",
-    "/dashboard/faqs",
-    "/dashboard/tickets",
-    "/dashboard/contact",
-    "/dashboard/settings"
-]
+        "/dashboard/my-applications",
+        "/dashboard/facilities",
+        "/dashboard/action-items",
+        "/dashboard/user-management",
+        "/dashboard/announcements",
+        "/dashboard/faqs",
+        "/dashboard/tickets",
+        "/dashboard/contact",
+        "/dashboard/settings"
+    ]
 
     with sync_playwright() as p:
 
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(
+            headless=False
+        )
 
         page = browser.new_page()
 
@@ -70,9 +145,15 @@ def main():
 
         for route in pages:
 
-            data = extract_page(page, route)
+            data = extract_page(
+                page,
+                route
+            )
 
-            filename = route.split("/")[-1] + ".json"
+            filename = (
+                route.split("/")[-1]
+                + ".json"
+            )
 
             with open(
                 f"data/extracted_ui/{filename}",
@@ -80,9 +161,15 @@ def main():
                 encoding="utf-8"
             ) as f:
 
-                json.dump(data, f, indent=2)
+                json.dump(
+                    data,
+                    f,
+                    indent=2
+                )
 
-            print(f"Saved {filename}")
+            print(
+                f"Saved {filename}"
+            )
 
         browser.close()
 

@@ -202,6 +202,8 @@ Output:
 
 ### Stage 4 – AI Compliance Analysis
 
+The comparator uses Retrieval-Augmented Generation (RAG) to retrieve relevant guideline sections before performing compliance evaluation, reducing hallucinations and improving traceability.
+
 Input:
 
 * Retrieved guideline
@@ -225,7 +227,7 @@ Generated artifacts:
 
 * ai_discrepancy_report.json
 * ai_compliance_report.md
-
+* FastAPI Dashboard (/dashboard)
 
 Reports include:
 
@@ -331,7 +333,7 @@ Run AI compliance analysis:
 python -m app.comparator.ai_comparator
 ```
 
-Generate reports:
+Generate AI report:
 
 ```bash
 python -m app.report.ai_report_generator

@@ -79,15 +79,27 @@ def main():
         )
 
         report.append(
+            f"- Page URL: {item['page_url']}"
+        )
+
+        report.append(
             f"- Status: {status}"
         )
 
         report.append(
-            f"- Retrieved Rule: {item['retrieved_rule']}"
+            f"- Guideline Reference: {item['guideline_reference']}"
         )
 
         report.append(
-            f"- Reason: {item['reason']}"
+            f"- Retrieved At: {item['retrieved_at']}"
+        )
+
+        report.append(
+            f"- Screenshot: {item['screenshot_path']}"
+        )
+
+        report.append(
+            f"- AI Finding: {item['discrepancy_reason']}"
         )
 
     report.append("\n---\n")
@@ -95,15 +107,15 @@ def main():
     report.append("## Notes\n")
 
     report.append(
-        "- Analysis performed using Gemini 2.5 Flash via OpenRouter."
+        "- Analysis performed using Gemini 2.5 Flash."
     )
 
     report.append(
-        "- Relevant guideline sections retrieved using ChromaDB."
+        "- Guideline sections retrieved using ChromaDB."
     )
 
     report.append(
-        "- Results should be manually reviewed before compliance decisions."
+        "- Results should be manually reviewed before final compliance decisions."
     )
 
     Path("data/reports").mkdir(

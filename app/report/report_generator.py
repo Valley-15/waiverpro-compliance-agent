@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from datetime import datetime
 
-DISCREPANCY_FILE = "data/reports/discrepancy_report.json"
+DISCREPANCY_FILE = "data/reports/ai_discrepancy_report.json"
 RULES_FILE = "data/guidelines/rules.json"
 OUTPUT_FILE = "data/reports/final_report.md"
 

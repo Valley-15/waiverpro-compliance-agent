@@ -3,6 +3,7 @@ from pathlib import Path
 
 from app.comparator.gemini_comparator import ask_gemini
 from app.rag.retriever import retrieve_rule
+from datetime import datetime
 
 
 UI_DIR = "data/extracted_ui"
@@ -45,11 +46,19 @@ def main():
         )
 
         results.append({
-            "page_file": file.name,
-            "retrieved_rule": rule_title,
-            "compliant": response["compliant"],
-            "reason": response["reason"]
-        })
+    "page_file": file.name,
+    "page_url": ui_data.get("page_url"),
+    "guideline_reference": rule_title,
+    "guideline_excerpt": rule_text[:500],
+    "compliant": response["compliant"],
+    "discrepancy_flag": not response["compliant"],
+    "discrepancy_reason": response["reason"],
+    "screenshot_path": ui_data.get(
+        "screenshot_path"
+    ),
+    "retrieved_at":
+        datetime.utcnow().isoformat()
+})
 
         print(
             f"Checked: {file.stem} -> {rule_title} -> {response['compliant']}"

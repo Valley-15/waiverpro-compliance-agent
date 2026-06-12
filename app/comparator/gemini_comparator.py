@@ -13,7 +13,7 @@ MODEL = "google/gemini-2.5-flash"
 def ask_gemini(rule_text, ui_data):
 
     prompt = f"""
-You are a strict QA compliance auditor.
+You are a QA compliance auditor.
 
 Guideline Requirement:
 
@@ -25,18 +25,19 @@ Extracted UI Data:
 
 Instructions:
 
-- Compare the guideline against the extracted UI.
-- Only use evidence present in the UI data.
-- Do NOT assume missing functionality exists.
-- Do NOT infer features that are not explicitly shown.
-- If evidence is missing, mark compliant as false.
-- Return valid JSON only.
+1. Compare the guideline against the extracted UI.
+2. Use ONLY evidence present in the extracted UI.
+3. Do NOT assume functionality that is not shown.
+4. Do NOT fail a page because evidence is represented differently than the guideline wording.
+5. If equivalent evidence exists, mark compliant=true.
+6. Missing minor implementation details should not cause failure when the main requirement is clearly satisfied.
+7. Be consistent and practical.
 
-Expected format:
+Return ONLY valid JSON:
 
 {{
-    "compliant": true,
-    "reason": "short explanation"
+  "compliant": true,
+  "reason": "short explanation"
 }}
 """
 

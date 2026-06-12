@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>
+        WaiverPro Compliance Agent
+    </title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background: #f4f4f4;
+        }
+
+        .pass {
+            color: green;
+            font-weight: bold;
+        }
+
+        .fail {
+            color: red;
+            font-weight: bold;
+        }
+
+        .reason {
+            background: #fafafa;
+            padding: 12px;
+            border-left: 4px solid #ccc;
+            margin-bottom: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>
+        WaiverPro Compliance Agent
+    </h1>
+
+    <p>
+        Automated UI Compliance Verification System
+    </p>
+
+    <hr>
+
+    <h2>
+        Audit Summary
+    </h2>
+
+    <ul>
+        <li>
+            Pages Checked:
+            {{ summary.pages_checked }}
+        </li>
+
+        <li>
+            Passed:
+            {{ summary.passed }}
+        </li>
+
+        <li>
+            Needs Review:
+            {{ summary.needs_review }}
+        </li>
+
+        <li>
+            Pass Rate:
+            {{ summary.pass_rate }}%
+        </li>
+    </ul>
+
+    <hr>
+
+    <form action="/run-audit" method="post">
+
+        <button type="submit">
+            Run Audit
+        </button>
+
+    </form>
+
+    <br>
+
+    <a href="/report">
+        View Raw Report JSON
+    </a>
+
+    <hr>
+
+    <h2>
+        Compliance Results
+    </h2>
+
+    <table>
+
+        <tr>
+            <th>Page</th>
+            <th>Rule</th>
+            <th>Status</th>
+        </tr>
+
+        {% for item in results %}
+
+        <tr>
+
+            <td>
+                {{ item.page_file }}
+            </td>
+
+            <td>
+                {{ item.guideline_reference }}
+            </td>
+
+            <td>
+
+                {% if item.compliant %}
+
+                <span class="pass">
+                    PASS
+                </span>
+
+                {% else %}
+
+                <span class="fail">
+                    REVIEW
+                </span>
+
+                {% endif %}
+
+            </td>
+
+        </tr>
+
+        {% endfor %}
+
+    </table>
+
+    <hr>
+
+    <h2>
+        Detailed Findings
+    </h2>
+    
+    {% for item in results %}
+    
+    <h3>
+        {{ item.page_file }}
+    </h3>
+    
+    <p>
+        <strong>Page URL:</strong>
+        {{ item.page_url }}
+    </p>
+    
+    <p>
+        <strong>Guideline Reference:</strong>
+        {{ item.guideline_reference }}
+    </p>
+    
+    <p>
+        <strong>Retrieved At:</strong>
+        {{ item.retrieved_at }}
+    </p>
+    
+    <p>
+        <strong>Status:</strong>
+    
+        {% if item.compliant %}
+        ✅ PASS
+        {% else %}
+        ❌ REVIEW
+        {% endif %}
+    </p>
+    
+    <p>
+        <strong>Screenshot:</strong>
+        {{ item.screenshot_path }}
+    </p>
+    
+    <div class="reason">
+    
+        <strong>
+            AI Explanation:
+        </strong>
+    
+        <br><br>
+    
+        {{ item.discrepancy_reason }}
+    
+    </div>
+    
+    {% endfor %}
+
+</body>
+
+</html>

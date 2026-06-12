@@ -11,3 +11,4 @@ data/reports/
 .env.*
 *.log
 .DS_Store
+data/chroma_db/

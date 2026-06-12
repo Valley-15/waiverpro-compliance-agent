@@ -2,9 +2,9 @@ import json
 from pathlib import Path
 
 from app.comparator.gemini_comparator import ask_gemini
+from app.rag.retriever import retrieve_rule
 
 
-RULES_FILE = "data/guidelines/rules.json"
 UI_DIR = "data/extracted_ui"
 OUTPUT_FILE = "data/reports/ai_discrepancy_report.json"
 
@@ -17,40 +17,43 @@ def load_json(path):
 
 def main():
 
-    rules = load_json(RULES_FILE)
-
     results = []
 
     for file in Path(UI_DIR).glob("*.json"):
 
         ui_data = load_json(file)
 
-        page_name = (
-            file.stem
-            .replace("-", " ")
-            .replace("_", " ")
-            .lower()
+        page_title = ""
+
+        if ui_data.get("headings"):
+            page_title = ui_data["headings"][0]
+
+        query = page_title
+
+        retrieval = retrieve_rule(
+            query,
+            top_k=1
         )
 
-        for rule in rules:
+        rule_text = retrieval["documents"][0][0]
 
-            if page_name in rule["title"].lower():
+        rule_title = retrieval["metadatas"][0][0]["title"]
 
-                response = ask_gemini(
-                    rule["content"],
-                    ui_data
-                )
+        response = ask_gemini(
+            rule_text,
+            ui_data
+        )
 
-                results.append({
-                    "page": rule["title"],
-                    "rule": rule["content"],
-                    "compliant": response["compliant"],
-                    "reason": response["reason"]
-                })
+        results.append({
+            "page_file": file.name,
+            "retrieved_rule": rule_title,
+            "compliant": response["compliant"],
+            "reason": response["reason"]
+        })
 
-                print(
-                    f"Checked: {rule['title']} -> {response['compliant']}"
-                )
+        print(
+            f"Checked: {file.stem} -> {rule_title} -> {response['compliant']}"
+        )
 
     Path("data/reports").mkdir(
         parents=True,
